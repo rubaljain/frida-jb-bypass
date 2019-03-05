@@ -14,7 +14,7 @@ Command: frida-ps -Uai
 
 As shown below, process name for our application is 'DVIA-v2'
 
-![alt text] (https://raw.githubusercontent.com/rubaljain/frida-jb-bypass/master/img/Screenshot%202019-03-05%20at%204.00.43%20PM.png)
+<img src="https://raw.githubusercontent.com/rubaljain/frida-jb-bypass/master/img/Screenshot%202019-03-05%20at%204.00.43%20PM.png)">
 
 
 2. Next step is to find the classname which implements the Jailbreak Detection method.
