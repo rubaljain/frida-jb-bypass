@@ -27,7 +27,11 @@ Command: frida -U -l find-classes.js DVIA-v2
 
 We have found the classname as 'JailbreakDetection'
 
-3. Next step is to find the methodname which detects the Jailbreak Detection. Open the script and modify the classname to 'JailbreakDetection'
+3. Next step is to find the methodname which detects the Jailbreak Detection. 
+
+Note: Modify the classname as shown below to find all the methods.
+
+<img src="https://github.com/rubaljain/frida-jb-bypass/blob/master/img/Screenshot%202019-03-05%20at%205.01.07%20PM.png?raw=true">
 
 Command: frida -U -l show-all-methods-of-specific-class.js DVIA-v2
 
